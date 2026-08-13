@@ -2,6 +2,7 @@ import './App.css'
 
 function App() {
   const whatsappNumber = '966553882226'
+
   const whatsappMessage = encodeURIComponent(
     'Hello, I have a question about Qatif Marathon.'
   )
@@ -19,13 +20,24 @@ function App() {
             src={`${baseUrl}qatif-marathon-logo.png`}
             alt="Qatif Marathon"
           />
+
           <span>QATIF MARATHON</span>
         </div>
 
         <div className="nav-links">
-          <a href="#race">The Event</a>
-          <a href="#community">Community Run</a>
-          <a href="#about">About</a>
+
+          <a href="#race">
+            The Event
+          </a>
+
+          <a href="#community">
+            Community Run
+          </a>
+
+          <a href="#about">
+            About
+          </a>
+
           <a
             href="https://www.instagram.com/qatifmarathon/"
             target="_blank"
@@ -33,7 +45,11 @@ function App() {
           >
             Instagram
           </a>
-          <a href="#contact">Contact</a>
+
+          <a href="#contact">
+            Contact
+          </a>
+
         </div>
 
         <a
@@ -47,7 +63,10 @@ function App() {
 
 
       {/* HERO */}
-      <section id="race" className="hero">
+      <section
+        id="race"
+        className="hero"
+      >
 
         <div className="hero-content">
 
@@ -96,29 +115,48 @@ function App() {
         </div>
 
 
+        {/* HERO LOGO */}
         <div className="hero-logo">
+
           <img
             src={`${baseUrl}qatif-marathon-logo.png`}
             alt=""
           />
+
         </div>
 
 
+        {/* HERO INFORMATION */}
         <div className="hero-bottom">
 
           <div>
-            <strong>05.12.2026</strong>
-            <span>TARGET DATE</span>
+            <strong>
+              05.12.2026
+            </strong>
+
+            <span>
+              TARGET DATE
+            </span>
           </div>
 
           <div>
-            <strong>QATIF</strong>
-            <span>EASTERN PROVINCE</span>
+            <strong>
+              QATIF
+            </strong>
+
+            <span>
+              EASTERN PROVINCE
+            </span>
           </div>
 
           <div>
-            <strong>COMING SOON</strong>
-            <span>OFFICIAL DETAILS</span>
+            <strong>
+              COMING SOON
+            </strong>
+
+            <span>
+              OFFICIAL DETAILS
+            </span>
           </div>
 
         </div>
@@ -147,8 +185,11 @@ function App() {
           <p>
             A community run has been announced
             for December 5, 2026 for people who want to
-            come together and run a full <strong>42.195 km MARATHON</strong> in Qatif.
-          </p>her and run in Qatif.
+            come together and run a full{' '}
+            <strong>
+              42.195 km MARATHON
+            </strong>{' '}
+            in Qatif.
           </p>
 
           <p>
@@ -157,6 +198,8 @@ function App() {
             runners to come together and run at their own risk.
           </p>
 
+
+          {/* WARNING */}
           <div className="community-warning">
 
             <div className="warning-icon">
@@ -180,6 +223,8 @@ function App() {
 
           </div>
 
+
+          {/* COMMUNITY CTA */}
           <a
             className="community-button"
             href="https://forms.gle/eG2oocS4xShrFeMJ6"
@@ -213,6 +258,7 @@ function App() {
           </h2>
 
         </div>
+
 
         <div className="about-text">
 
@@ -252,11 +298,14 @@ function App() {
 
         </div>
 
+
         <div className="update-list">
 
           <div className="update-item">
 
-            <span>01</span>
+            <span>
+              01
+            </span>
 
             <strong>
               Authorization
@@ -269,9 +318,12 @@ function App() {
 
           </div>
 
+
           <div className="update-item">
 
-            <span>02</span>
+            <span>
+              02
+            </span>
 
             <strong>
               Race Details
@@ -284,9 +336,12 @@ function App() {
 
           </div>
 
+
           <div className="update-item">
 
-            <span>03</span>
+            <span>
+              03
+            </span>
 
             <strong>
               Registration
