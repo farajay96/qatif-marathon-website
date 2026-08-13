@@ -145,9 +145,10 @@ function App() {
           </h2>
 
           <p>
-            A <strong>community run</strong> has been announced
-            for December 5, 2026 for people who want to come
-            together and run in Qatif.
+            A community run has been announced
+            for December 5, 2026 for people who want to
+            come together and run a full <strong>42.195 km MARATHON</strong> in Qatif.
+          </p>her and run in Qatif.
           </p>
 
           <p>
