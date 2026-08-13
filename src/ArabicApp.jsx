@@ -6,6 +6,8 @@ function ArabicApp() {
     'السلام عليكم، لدي استفسار عن ماراثون القطيف.'
   )
 
+  const baseUrl = import.meta.env.BASE_URL
+
   return (
     <main className="site arabic-site">
 
@@ -14,7 +16,7 @@ function ArabicApp() {
 
         <div className="nav-logo">
           <img
-            src="/qatif-marathon-logo.png"
+            src={`${baseUrl}qatif-marathon-logo.png`}
             alt="ماراثون القطيف"
           />
           <span>QATIF MARATHON</span>
@@ -24,13 +26,22 @@ function ArabicApp() {
           <a href="#race">الفعالية</a>
           <a href="#community">الجري المجتمعي</a>
           <a href="#about">عن الماراثون</a>
-          <a href="https://www.instagram.com/qatifmarathon/" target="_blank" rel="noreferrer">
+
+          <a
+            href="https://www.instagram.com/qatifmarathon/"
+            target="_blank"
+            rel="noreferrer"
+          >
             إنستغرام
           </a>
+
           <a href="#contact">تواصل معنا</a>
         </div>
 
-        <a className="language" href="/">
+        <a
+          className="language"
+          href={baseUrl}
+        >
           English
         </a>
 
@@ -40,7 +51,6 @@ function ArabicApp() {
       {/* HERO */}
       <section id="race" className="hero">
 
-        {/* RIGHT SIDE — MAIN MESSAGE */}
         <div className="hero-content">
 
           <p className="eyebrow">
@@ -87,16 +97,14 @@ function ArabicApp() {
         </div>
 
 
-        {/* LEFT SIDE — LOGO */}
         <div className="hero-logo">
           <img
-            src="/qatif-marathon-logo.png"
+            src={`${baseUrl}qatif-marathon-logo.png`}
             alt="Qatif Marathon"
           />
         </div>
 
 
-        {/* BOTTOM INFORMATION */}
         <div className="hero-bottom">
 
           <div>
@@ -154,6 +162,7 @@ function ArabicApp() {
             </div>
 
             <div>
+
               <strong>
                 تنبيه مهم
               </strong>
@@ -163,6 +172,7 @@ function ArabicApp() {
                 المشارك الخاصة. لا توجد حالياً خدمات تنظيمية
                 أو تسجيل رسمي للسباق.
               </span>
+
             </div>
 
           </div>
@@ -240,6 +250,7 @@ function ArabicApp() {
         <div className="update-list">
 
           <div className="update-item">
+
             <span>01</span>
 
             <strong>
@@ -250,9 +261,11 @@ function ArabicApp() {
               استكمال إجراءات اعتماد الفعالية والموافقات
               اللازمة.
             </p>
+
           </div>
 
           <div className="update-item">
+
             <span>02</span>
 
             <strong>
@@ -263,9 +276,11 @@ function ArabicApp() {
               سيتم الإعلان عن المسافات والمسارات ومعلومات
               يوم السباق بعد تأكيدها.
             </p>
+
           </div>
 
           <div className="update-item">
+
             <span>03</span>
 
             <strong>
@@ -276,6 +291,7 @@ function ArabicApp() {
               سيتم الإعلان عن فتح التسجيل الرسمي
               ومعلومات المشاركين لاحقاً.
             </p>
+
           </div>
 
         </div>
@@ -347,7 +363,7 @@ function ArabicApp() {
         <div className="footer-main">
 
           <img
-            src="/qatif-marathon-logo.png"
+            src={`${baseUrl}qatif-marathon-logo.png`}
             alt="ماراثون القطيف"
           />
 

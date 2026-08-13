@@ -6,6 +6,8 @@ function App() {
     'Hello, I have a question about Qatif Marathon.'
   )
 
+  const baseUrl = import.meta.env.BASE_URL
+
   return (
     <main className="site">
 
@@ -14,7 +16,7 @@ function App() {
 
         <div className="nav-logo">
           <img
-            src="/qatif-marathon-logo.png"
+            src={`${baseUrl}qatif-marathon-logo.png`}
             alt="Qatif Marathon"
           />
           <span>QATIF MARATHON</span>
@@ -36,7 +38,7 @@ function App() {
 
         <a
           className="language"
-          href="/ar"
+          href={`${baseUrl}ar`}
         >
           العربية
         </a>
@@ -96,7 +98,7 @@ function App() {
 
         <div className="hero-logo">
           <img
-            src="/qatif-marathon-logo.png"
+            src={`${baseUrl}qatif-marathon-logo.png`}
             alt=""
           />
         </div>
@@ -365,7 +367,7 @@ function App() {
         <div className="footer-main">
 
           <img
-            src="/qatif-marathon-logo.png"
+            src={`${baseUrl}qatif-marathon-logo.png`}
             alt="Qatif Marathon"
           />
 
