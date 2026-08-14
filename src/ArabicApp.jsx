@@ -2,6 +2,7 @@ import './App.css'
 
 function ArabicApp() {
   const whatsappNumber = '966553882226'
+
   const whatsappMessage = encodeURIComponent(
     'السلام عليكم، لدي استفسار عن ماراثون القطيف.'
   )
@@ -15,17 +16,31 @@ function ArabicApp() {
       <nav className="navbar">
 
         <div className="nav-logo">
+
           <img
             src={`${baseUrl}qatif-marathon-logo.png`}
             alt="ماراثون القطيف"
           />
-          <span>QATIF MARATHON</span>
+
+          <span>
+            QATIF MARATHON
+          </span>
+
         </div>
 
         <div className="nav-links">
-          <a href="#race">الفعالية</a>
-          <a href="#community">الجري المجتمعي</a>
-          <a href="#about">عن الماراثون</a>
+
+          <a href="#race">
+            الفعالية
+          </a>
+
+          <a href="#about">
+            عن الماراثون
+          </a>
+
+          <a href="#distances">
+            المسافات
+          </a>
 
           <a
             href="https://www.instagram.com/qatifmarathon/"
@@ -35,7 +50,10 @@ function ArabicApp() {
             إنستغرام
           </a>
 
-          <a href="#contact">تواصل معنا</a>
+          <a href="#contact">
+            تواصل معنا
+          </a>
+
         </div>
 
         <a
@@ -49,7 +67,10 @@ function ArabicApp() {
 
 
       {/* HERO */}
-      <section id="race" className="hero">
+      <section
+        id="race"
+        className="hero"
+      >
 
         <div className="hero-content">
 
@@ -64,14 +85,18 @@ function ArabicApp() {
           </h1>
 
           <p className="hero-text">
-            ماراثون القطيف قادم.
+            فعالية جري مقترحة متعددة المسافات في القطيف.
             <br />
-            نعمل حالياً على بناء الحدث واستكمال إجراءاته.
+            التاريخ المستهدف: 5 ديسمبر 2026.
           </p>
 
           <p className="hero-status">
-            سيتم الإعلان عن تفاصيل السباق الرسمية والمسافات
-            والتسجيل عند تأكيدها.
+            ماراثون القطيف فعالية مقترحة قيد التطوير وتخضع
+            للموافقات والتنسيق اللازم. يتضمن المقترح
+            ماراثوناً كاملاً لمسافة 42.195 كم، ونصف ماراثون
+            لمسافة 21.1 كم، بالإضافة إلى مسافتي 10 كم و5 كم.
+            سيتم الإعلان عن تفاصيل السباق الرسمية والتسجيل
+            بعد اعتماد الفعالية وتأكيدها.
           </p>
 
           <div className="hero-actions">
@@ -87,9 +112,9 @@ function ArabicApp() {
 
             <a
               className="secondary-button"
-              href="#community"
+              href="#distances"
             >
-              الجري المجتمعي ←
+              المسافات المقترحة ←
             </a>
 
           </div>
@@ -97,93 +122,55 @@ function ArabicApp() {
         </div>
 
 
+        {/* HERO LOGO */}
         <div className="hero-logo">
+
           <img
             src={`${baseUrl}qatif-marathon-logo.png`}
             alt="Qatif Marathon"
           />
+
         </div>
 
 
+        {/* HERO INFORMATION */}
         <div className="hero-bottom">
 
           <div>
-            <strong>05.12.2026</strong>
-            <span>التاريخ المستهدف</span>
+
+            <strong>
+              05.12.2026
+            </strong>
+
+            <span>
+              التاريخ المستهدف
+            </span>
+
           </div>
 
           <div>
-            <strong>القطيف</strong>
-            <span>المنطقة الشرقية</span>
+
+            <strong>
+              42.195 كم
+            </strong>
+
+            <span>
+              ماراثون
+            </span>
+
           </div>
 
           <div>
-            <strong>قريباً</strong>
-            <span>التفاصيل الرسمية</span>
-          </div>
 
-        </div>
+            <strong>
+              قيد التطوير
+            </strong>
 
-      </section>
-
-
-      {/* COMMUNITY RUN */}
-      <section
-        id="community"
-        className="community"
-      >
-
-        <div className="community-content">
-
-          <p className="eyebrow">
-            الجري المجتمعي
-          </p>
-
-          <h2>
-            نبدأ من المجتمع.
-          </h2>
-
-          <p>
-            تم الإعلان عن جري مجتمعي في 5 ديسمبر 2026 للأشخاص الراغبين
-            في الاجتماع والجري معاً لمسافة <strong>42.195 كم ماراثون</strong> في القطيف.
-          </p>
-
-          <p>
-            هذا الجري المجتمعي ليس سباقاً منظماً أو فعالية
-            رسمية حتى الآن، ولا يمثل بديلاً عن ماراثون
-            القطيف الرسمي.
-          </p>
-
-          <div className="community-warning">
-
-            <div className="warning-icon">
-              !
-            </div>
-
-            <div>
-
-              <strong>
-                تنبيه مهم
-              </strong>
-
-              <span>
-                المشاركة في الجري المجتمعي تكون على مسؤولية
-                المشارك الخاصة. لا توجد حالياً خدمات تنظيمية
-                أو تسجيل رسمي للسباق.
-              </span>
-
-            </div>
+            <span>
+              خاضع للموافقات
+            </span>
 
           </div>
-
-          <a
-            className="community-button"
-            href="https://forms.gle/eG2oocS4xShrFeMJ6"
-            target="_blank"
-            rel="noreferrer"
-          >
-            سجل اهتمامك بالجري ←
-          </a>
 
         </div>
 
@@ -213,16 +200,102 @@ function ArabicApp() {
         <div className="about-text">
 
           <p>
-            ماراثون القطيف هو مشروع لفعالية جري على الطرق
-            تهدف إلى جمع العدائين والمجتمع وإبراز القطيف
-            كوجهة للرياضة والحركة والمجتمع.
+            ماراثون القطيف هو فعالية جري مقترحة متعددة
+            المسافات على الطرق، يجري تطويرها بهدف جمع
+            العدائين وإبراز القطيف كوجهة للرياضة والحركة
+            والمجتمع.
           </p>
 
           <p>
-            يتم حالياً العمل على تطوير الحدث واستكمال
-            الإجراءات اللازمة. سيتم الإعلان عن التفاصيل
-            الرسمية عند تأكيدها.
+            يتضمن المقترح أربع مسافات:
+            ماراثون كامل لمسافة 42.195 كم،
+            ونصف ماراثون لمسافة 21.1 كم،
+            بالإضافة إلى 10 كم و5 كم.
           </p>
+
+          <p>
+            التاريخ المستهدف للفعالية المقترحة هو
+            5 ديسمبر 2026. وتخضع الفعالية حالياً
+            للتطوير واستكمال الموافقات والتنسيق
+            والاستعدادات اللازمة. سيتم الإعلان عن
+            التفاصيل الرسمية والتسجيل بعد تأكيدها.
+          </p>
+
+        </div>
+
+      </section>
+
+
+      {/* PROPOSED DISTANCES */}
+      <section
+        id="distances"
+        className="updates"
+      >
+
+        <div>
+
+          <p className="eyebrow">
+            المسافات المقترحة
+          </p>
+
+          <h2>
+            أربع مسافات.
+            <br />
+            فعالية واحدة.
+          </h2>
+
+        </div>
+
+        <div className="update-list">
+
+          <div className="update-item">
+
+            <span>
+              01
+            </span>
+
+            <strong>
+              الماراثون
+            </strong>
+
+            <p>
+              ماراثون كامل لمسافة 42.195 كم.
+            </p>
+
+          </div>
+
+          <div className="update-item">
+
+            <span>
+              02
+            </span>
+
+            <strong>
+              نصف الماراثون
+            </strong>
+
+            <p>
+              نصف ماراثون لمسافة 21.1 كم.
+            </p>
+
+          </div>
+
+          <div className="update-item">
+
+            <span>
+              03
+            </span>
+
+            <strong>
+              10 كم و5 كم
+            </strong>
+
+            <p>
+              مسافات أقصر تتيح المشاركة لشريحة أوسع
+              من العدائين.
+            </p>
+
+          </div>
 
         </div>
 
@@ -239,9 +312,9 @@ function ArabicApp() {
           </p>
 
           <h2>
-            التفاصيل الرسمية
+            نبني الفعالية
             <br />
-            ستأتي لاحقاً.
+            خطوة بخطوة.
           </h2>
 
         </div>
@@ -250,45 +323,51 @@ function ArabicApp() {
 
           <div className="update-item">
 
-            <span>01</span>
+            <span>
+              01
+            </span>
 
             <strong>
-              الاعتماد
+              الموافقات
             </strong>
 
             <p>
-              استكمال إجراءات اعتماد الفعالية والموافقات
-              اللازمة.
+              استكمال الموافقات اللازمة واعتماد
+              الفعالية والتنسيق مع الجهات ذات العلاقة.
             </p>
 
           </div>
 
           <div className="update-item">
 
-            <span>02</span>
+            <span>
+              02
+            </span>
 
             <strong>
-              تفاصيل السباق
+              تخطيط الفعالية
             </strong>
 
             <p>
-              سيتم الإعلان عن المسافات والمسارات ومعلومات
-              يوم السباق بعد تأكيدها.
+              تطوير المسارات وعمليات السباق ومتطلبات
+              السلامة وغيرها من متطلبات الفعالية.
             </p>
 
           </div>
 
           <div className="update-item">
 
-            <span>03</span>
+            <span>
+              03
+            </span>
 
             <strong>
-              التسجيل
+              التسجيل الرسمي
             </strong>
 
             <p>
-              سيتم الإعلان عن فتح التسجيل الرسمي
-              ومعلومات المشاركين لاحقاً.
+              سيتم الإعلان عن التسجيل الرسمي ومعلومات
+              المشاركين بعد اعتماد الفعالية وتأكيدها.
             </p>
 
           </div>
@@ -314,7 +393,7 @@ function ArabicApp() {
 
         <p className="partners-text">
           سيتم الإعلان عن الشركاء والرعاة الرسميين
-          مع تطور الحدث.
+          مع تطور الحدث وتأكيد الشراكات.
         </p>
 
       </section>
@@ -337,9 +416,9 @@ function ArabicApp() {
           </h2>
 
           <p>
-            إذا كنت مهتماً بالجري المجتمعي، أو ترغب في
-            التعاون، أو تريد معرفة المزيد عن ماراثون القطيف،
-            تواصل معنا.
+            إذا كنت مهتماً بالفعالية المقترحة أو بالشراكات
+            المحتملة، أو ترغب في معرفة المزيد عن
+            ماراثون القطيف، تواصل معنا.
           </p>
 
           <a
@@ -372,7 +451,6 @@ function ArabicApp() {
 
         </div>
 
-
         <div className="footer-contact">
 
           <span>
@@ -389,7 +467,6 @@ function ArabicApp() {
           </a>
 
         </div>
-
 
         <div className="footer-right">
 

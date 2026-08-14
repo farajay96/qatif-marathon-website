@@ -10,7 +10,7 @@ import ArabicApp from './ArabicApp.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter basename="/qatif-marathon-website">
+    <BrowserRouter basename="/">
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/ar" element={<ArabicApp />} />

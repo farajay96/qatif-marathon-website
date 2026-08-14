@@ -16,12 +16,16 @@ function App() {
       <nav className="navbar">
 
         <div className="nav-logo">
+
           <img
             src={`${baseUrl}qatif-marathon-logo.png`}
             alt="Qatif Marathon"
           />
 
-          <span>QATIF MARATHON</span>
+          <span>
+            QATIF MARATHON
+          </span>
+
         </div>
 
         <div className="nav-links">
@@ -30,12 +34,12 @@ function App() {
             The Event
           </a>
 
-          <a href="#community">
-            Community Run
-          </a>
-
           <a href="#about">
             About
+          </a>
+
+          <a href="#distances">
+            Distances
           </a>
 
           <a
@@ -81,15 +85,19 @@ function App() {
           </h1>
 
           <p className="hero-text">
-            A new running experience in Qatif.
+            A proposed multi-distance road-running event in Qatif.
             <br />
-            December 5, 2026.
+            Target date: December 5, 2026.
           </p>
 
           <p className="hero-status">
-            The event is currently being developed.
-            Official race details, distances and registration
-            will be announced once confirmed.
+            Qatif Marathon is currently a proposed event under
+            development and subject to the necessary approvals
+            and coordination. The proposal includes a full
+            42.195 km marathon, a 21.1 km half marathon,
+            10 km and 5 km distances. Official race details
+            and registration will be announced once the event
+            is approved and confirmed.
           </p>
 
           <div className="hero-actions">
@@ -105,9 +113,9 @@ function App() {
 
             <a
               className="secondary-button"
-              href="#community"
+              href="#distances"
             >
-              Community Run →
+              Proposed Distances →
             </a>
 
           </div>
@@ -130,6 +138,7 @@ function App() {
         <div className="hero-bottom">
 
           <div>
+
             <strong>
               05.12.2026
             </strong>
@@ -137,102 +146,32 @@ function App() {
             <span>
               TARGET DATE
             </span>
+
           </div>
 
           <div>
+
             <strong>
-              QATIF
+              42.195 KM
             </strong>
 
             <span>
-              EASTERN PROVINCE
+              MARATHON
             </span>
+
           </div>
 
           <div>
+
             <strong>
-              COMING SOON
+              IN DEVELOPMENT
             </strong>
 
             <span>
-              OFFICIAL DETAILS
+              SUBJECT TO APPROVAL
             </span>
-          </div>
-
-        </div>
-
-      </section>
-
-
-      {/* COMMUNITY RUN */}
-      <section
-        id="community"
-        className="community"
-      >
-
-        <div className="community-content">
-
-          <p className="eyebrow">
-            COMMUNITY RUN
-          </p>
-
-          <h2>
-            We start
-            <br />
-            with the community.
-          </h2>
-
-          <p>
-            A community run has been announced
-            for December 5, 2026 for people who want to
-            come together and run a full{' '}
-            <strong>
-              42.195 km MARATHON
-            </strong>{' '}
-            in Qatif.
-          </p>
-
-          <p>
-            This community run is not currently an organized
-            race or official event. It is an opportunity for
-            runners to come together and run at their own risk.
-          </p>
-
-
-          {/* WARNING */}
-          <div className="community-warning">
-
-            <div className="warning-icon">
-              !
-            </div>
-
-            <div>
-
-              <strong>
-                Important
-              </strong>
-
-              <span>
-                Participation in the community run is at the
-                participant's own risk. There is currently no
-                official race registration or organized race
-                services.
-              </span>
-
-            </div>
 
           </div>
-
-
-          {/* COMMUNITY CTA */}
-          <a
-            className="community-button"
-            href="https://forms.gle/eG2oocS4xShrFeMJ6"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Register Your Interest →
-          </a>
 
         </div>
 
@@ -259,22 +198,106 @@ function App() {
 
         </div>
 
-
         <div className="about-text">
 
           <p>
-            Qatif Marathon is a community road-running event
-            being developed to bring runners together and
-            showcase Qatif as a destination for sport, movement
-            and community.
+            Qatif Marathon is a proposed multi-distance
+            road-running event being developed to bring
+            runners together and showcase Qatif as a
+            destination for sport, movement and community.
           </p>
 
           <p>
-            The event is currently being developed and the
-            necessary approvals and preparations are underway.
-            Official race details will be announced once
-            confirmed.
+            The proposal includes four race distances:
+            a full 42.195 km marathon, a 21.1 km half
+            marathon, 10 km and 5 km.
           </p>
+
+          <p>
+            The target date for the proposed event is
+            December 5, 2026. The event is currently
+            under development, with the necessary
+            approvals, coordination and preparations
+            being pursued. Official details and registration
+            will be announced once confirmed.
+          </p>
+
+        </div>
+
+      </section>
+
+
+      {/* PROPOSED DISTANCES */}
+      <section
+        id="distances"
+        className="updates"
+      >
+
+        <div>
+
+          <p className="eyebrow">
+            PROPOSED DISTANCES
+          </p>
+
+          <h2>
+            Four distances.
+            <br />
+            One event.
+          </h2>
+
+        </div>
+
+        <div className="update-list">
+
+          <div className="update-item">
+
+            <span>
+              01
+            </span>
+
+            <strong>
+              Marathon
+            </strong>
+
+            <p>
+              42.195 km full-distance marathon.
+            </p>
+
+          </div>
+
+          <div className="update-item">
+
+            <span>
+              02
+            </span>
+
+            <strong>
+              Half Marathon
+            </strong>
+
+            <p>
+              21.1 km half marathon.
+            </p>
+
+          </div>
+
+          <div className="update-item">
+
+            <span>
+              03
+            </span>
+
+            <strong>
+              10 KM & 5 KM
+            </strong>
+
+            <p>
+              Shorter distances designed to make the
+              proposed event accessible to a wider range
+              of runners.
+            </p>
+
+          </div>
 
         </div>
 
@@ -291,13 +314,12 @@ function App() {
           </p>
 
           <h2>
-            Official details
+            Building the event
             <br />
-            will come later.
+            step by step.
           </h2>
 
         </div>
-
 
         <div className="update-list">
 
@@ -308,16 +330,15 @@ function App() {
             </span>
 
             <strong>
-              Authorization
+              Approvals
             </strong>
 
             <p>
               Completing the necessary approvals and
-              authorization for the event.
+              authorization for the proposed event.
             </p>
 
           </div>
-
 
           <div className="update-item">
 
@@ -326,16 +347,15 @@ function App() {
             </span>
 
             <strong>
-              Race Details
+              Event Planning
             </strong>
 
             <p>
-              Distances, course information and race-day
-              details will be announced once confirmed.
+              Developing the course, race operations,
+              safety and other event requirements.
             </p>
 
           </div>
-
 
           <div className="update-item">
 
@@ -344,12 +364,13 @@ function App() {
             </span>
 
             <strong>
-              Registration
+              Official Registration
             </strong>
 
             <p>
               Official registration and participant
-              information will be released later.
+              information will be released once the
+              event is approved and confirmed.
             </p>
 
           </div>
@@ -375,7 +396,7 @@ function App() {
 
         <p className="partners-text">
           Official partners and sponsors will be announced
-          as the event develops.
+          as the event develops and partnerships are confirmed.
         </p>
 
       </section>
@@ -398,8 +419,9 @@ function App() {
           </h2>
 
           <p>
-            Interested in the community run, want to collaborate,
-            or simply want to know more about Qatif Marathon?
+            Interested in the proposed event, potential
+            partnerships, or simply want to know more about
+            Qatif Marathon?
             Get in touch.
           </p>
 
@@ -433,7 +455,6 @@ function App() {
 
         </div>
 
-
         <div className="footer-contact">
 
           <span>
@@ -450,7 +471,6 @@ function App() {
           </a>
 
         </div>
-
 
         <div className="footer-right">
 
