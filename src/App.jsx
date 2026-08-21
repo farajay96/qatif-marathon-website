@@ -87,7 +87,7 @@ function App() {
           <p className="hero-text">
             A proposed multi-distance road-running event in Qatif.
             <br />
-            Target date: December 5, 2026.
+            Proposed date: December 2026.
           </p>
 
           <p className="hero-status">
@@ -95,9 +95,10 @@ function App() {
             development and subject to the necessary approvals
             and coordination. The proposal includes a full
             42.195 km marathon, a 21.1 km half marathon,
-            10 km and 5 km distances. Official race details
-            and registration will be announced once the event
-            is approved and confirmed.
+            10 km and 5 km distances. The proposed event date
+            is currently under consideration. Official race
+            details and registration will be announced once
+            the event is approved and confirmed.
           </p>
 
           <div className="hero-actions">
@@ -140,11 +141,11 @@ function App() {
           <div>
 
             <strong>
-              05.12.2026
+              DEC 2026
             </strong>
 
             <span>
-              TARGET DATE
+              PROPOSED MONTH
             </span>
 
           </div>
@@ -164,11 +165,11 @@ function App() {
           <div>
 
             <strong>
-              IN DEVELOPMENT
+              DATE UNDER CONSIDERATION
             </strong>
 
             <span>
-              SUBJECT TO APPROVAL
+              PROPOSED EVENT
             </span>
 
           </div>
@@ -214,10 +215,10 @@ function App() {
           </p>
 
           <p>
-            The target date for the proposed event is
-            December 5, 2026. The event is currently
-            under development, with the necessary
-            approvals, coordination and preparations
+            The proposed event is planned for December 2026.
+            The specific date is currently under consideration.
+            The event remains under development, with the
+            necessary approvals, coordination and preparations
             being pursued. Official details and registration
             will be announced once confirmed.
           </p>
@@ -475,7 +476,7 @@ function App() {
         <div className="footer-right">
 
           <p>
-            December 5, 2026
+            December 2026
           </p>
 
           <p>
