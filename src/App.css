@@ -1986,3 +1986,27 @@ footer {
   }
 
 }
+
+
+
+/* =========================================================
+   DESKTOP HERO LAYOUT FIX
+   Keeps the hero information bar below the action buttons.
+========================================================= */
+
+@media (min-width: 601px) {
+  .hero {
+    min-height: 850px;
+    padding-bottom: 35px;
+  }
+
+  .hero-bottom {
+    position: relative;
+    left: auto;
+    right: auto;
+    bottom: auto;
+
+    width: 100%;
+    margin-top: 48px;
+  }
+}
