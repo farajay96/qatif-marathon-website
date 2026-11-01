@@ -1,3 +1,4 @@
+
 import './App.css'
 
 function App() {
@@ -87,7 +88,7 @@ function App() {
           <p className="hero-text">
             A proposed multi-distance road-running event in Qatif.
             <br />
-            Proposed date: December 2026.
+            Proposed date: January 2027.
           </p>
 
           <p className="hero-status">
@@ -141,7 +142,7 @@ function App() {
           <div>
 
             <strong>
-              DEC 2026
+              JAN 2027
             </strong>
 
             <span>
@@ -215,7 +216,7 @@ function App() {
           </p>
 
           <p>
-            The proposed event is planned for December 2026.
+            The proposed event is planned for January 2027.
             The specific date is currently under consideration.
             The event remains under development, with the
             necessary approvals, coordination and preparations
@@ -451,7 +452,7 @@ function App() {
           />
 
           <p>
-            Qatif Marathon 2026
+            Qatif Marathon 2027
           </p>
 
         </div>
@@ -476,7 +477,7 @@ function App() {
         <div className="footer-right">
 
           <p>
-            December 2026
+            January 2027
           </p>
 
           <p>
