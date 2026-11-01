@@ -2132,3 +2132,14 @@ footer {
     white-space: normal;
   }
 }
+
+
+
+/* =========================================================
+   ARABIC NAVIGATION — HIDE ENGLISH BRANDING
+   Keep the English navbar branding; hide it only on Arabic.
+========================================================= */
+
+.arabic-site .navbar .nav-logo {
+  display: none;
+}
